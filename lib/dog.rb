@@ -8,11 +8,11 @@ def initialize(id: nil, name:, breed:)
 end
 
 def self.create_table
-#  sql = <<- SQL
-#
-#  SQL
-#
-#  DB[:conn].execute(sql)
+  sql = <<- SQL
+
+  SQL
+
+  DB[:conn].execute(sql)
 end
 
 def self.drop_table
