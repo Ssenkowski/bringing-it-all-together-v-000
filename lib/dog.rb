@@ -24,4 +24,7 @@ def self.drop_table
   DB[:conn].execute(sql)
 end
 
+def save
+  dog = self.new
+end
 end
