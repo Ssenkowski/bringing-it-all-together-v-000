@@ -38,5 +38,10 @@ def save
   self
 end
 
+def self.create(name:, breed:)
+  dog = self.new
+  dog.save
+  dog
+end
 
 end
