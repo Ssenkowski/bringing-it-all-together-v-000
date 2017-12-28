@@ -51,6 +51,8 @@ def self.find_by_id
     WHERE id = ?
     LIMIT 1
     SQL
+
+    DB[:conn].execute(sql, id)
 end
 
 end
