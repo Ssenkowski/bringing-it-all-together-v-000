@@ -50,6 +50,7 @@ def self.find_by_id
     FROM dogs
     WHERE id = ?
     LIMIT 1
+    SQL
 end
 
 end
